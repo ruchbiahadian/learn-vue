@@ -1,0 +1,26 @@
+vue create bootcamp-management
+Manually select features
+ (*) Babel
+ ( ) TypeScript
+>(*) Progressive Web App (PWA) Support
+ (*) Router
+ (*) Vuex
+ (*) CSS Pre-processors
+ (*) Linter / Formatter
+ ( ) Unit Testing
+ ( ) E2E Testing
+> 3.x
+> Sass/SCSS (with dart-sass)
+> ESLint with error prevention only
+>( ) Lint on save
+ ( ) Lint and fix on commit
+> In package.json
+
+npm i bootstrap-vue-next
+npm i bootstrap
+unplugin-vue-components
+add vite.config.js
+add folders in assets: css img scss(component, _global.scss, _reset.scss, style.scss)
+
+configure bootstrap in main.js
+
