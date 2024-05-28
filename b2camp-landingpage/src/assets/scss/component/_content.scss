@@ -1,0 +1,101 @@
+section {
+    .wide{
+        padding: 30px 0;
+
+        img{
+            display: flex;
+            margin: auto;
+            width: 100%;
+        }
+
+        .boxs{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    h1{
+        padding-bottom: 20px;
+        color: $primary-color;
+    }
+
+    .bigger{
+        padding: 170px 0;
+    }   
+
+    .center{
+        text-align: center;
+        list-style: none;
+
+        .list_container{
+            width: 400px;
+            margin: auto;
+
+            ul {
+                list-style: none;
+
+                li {
+                    p{
+                        text-align: left;
+                        padding: 10px 0;
+                    }
+
+                    img{
+                        float: left;
+                        width: 15px;
+                        margin: auto;
+                        margin-top: 12px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.boxs {
+    .box{
+        flex: 1;
+        margin: 0 5px;
+        box-sizing: border-box;
+
+        .bottom{
+            padding: 20px;
+            background-color: white;
+            border-radius: 0 0 20px 20px;
+
+            span{
+                font-weight: bold;
+                color: $primary-color-dark;
+            }
+
+            p{
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.service_help{
+    text-align: center;
+    padding: 40px 0 10px 0;
+
+    a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+.main_container {
+    .item1{
+        @include item-position($top: -100px, $right: 0px)
+    }
+    .item2{
+        @include item-position($top: 14px, $left: -60px)
+    }
+    .item3{
+        @include item-position($bottom: 10px, $left: 200px)
+    }
+}
+

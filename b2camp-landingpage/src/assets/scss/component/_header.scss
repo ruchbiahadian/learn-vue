@@ -1,0 +1,32 @@
+header{
+    background-color: $primary-color;
+    margin: 70px auto 0 auto;
+    background-image: url(../img/Rectangle252.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position: 0;
+
+    .blue p{
+        color: white;
+    }
+    
+    h1{
+        padding-bottom: 20px;
+    }
+}
+
+.main_container {
+
+    .item0{
+        @include item-position($top: 124px, $left: -320px);
+        box-sizing: content-box;
+        padding-left: 300px;
+        border-radius: 0 30px 0 0;
+
+        .buttons{
+            left: 128px;
+        }
+    }
+}
+
